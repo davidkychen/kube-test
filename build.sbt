@@ -73,5 +73,5 @@ libraryDependencies += "io.skuber" %% "skuber" % "2.4.0"
 
 // To learn more about multi-project builds, head over to the official sbt
 // documentation at http://www.scala-sbt.org/documentation.html
-mainClass in assembly := Some("Main")
+mainClass in assembly := Some("Test")
 javaOptions in assembly += "-xmx6g"
